@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Intro';
+    src: url('fonts/Intro-Black-Alt.eot');
+    src: url('fonts/Intro-Black-Alt.eot') format('embedded-opentype'),
+        url('fonts/Intro-Black-Alt.woff') format('woff'),
+        url('fonts/Intro-Black-Alt.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn__basket,
+.btn__buy,
+.btn__subscribe {
+    border-radius: 2em;
+    background-color: rgba(82, 34, 208, 1);
+    font-family: 'Intro', 'sans-serif';
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+
+}
+
+.btn__basket {
+    margin-left: 40em;
+    font-weight: 400;
+    font-size: 0.813em;
+}
+
+.btn__buy {
+    font-weight: 400;
+    font-size: 2.188em;
+}
+
+
+.box-1,
+.box-2 {
+    margin-top: 10em;
+}
+
+.box-1__text-title,
+.box-2__text-title,
+.card-title {
+    font-family: 'Intro', 'sans-serif';
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 1);
+}
+
+.box-1__text-title,
+.box-2__text-title {
+    font-weight: 700;
+    font-size: 3.750em;
+}
+
+.card-title {
+    font-weight: 400;
+    font-size: 1.875em;
+}
+
+.box-1__text_slogan,
+.nav-link,
+.card-text {
+    font-family: 'Roboto Slab', 'serif';
+    font-weight: 300;
+    font-size: 1.250em;
+    text-transform: none;
+}
+
+.nav-link {
+    color: rgba(82, 34, 208, 1);
+    margin-top: 10em;
+}
+
+
+.box-3__card-news {
+    background-image: url(img/bg_news-1.png);
+}
+
+.card {
+    border: none;
+}
+
+
+.box-3__card-1,
+.box-3__card-4 {
+    border: 1px solid #BB2247;
+}
+
+.card-img-top {
+    padding: 1em;
+}
+
+.box-3__nav-items {
+    color: black;
+}
